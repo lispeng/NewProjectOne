@@ -1,0 +1,16 @@
+PODS:
+  - NestedPageViewController (2.0.0)
+
+DEPENDENCIES:
+  - NestedPageViewController
+
+SPEC REPOS:
+  trunk:
+    - NestedPageViewController
+
+SPEC CHECKSUMS:
+  NestedPageViewController: 33cde2fab02e731422bb8b4bc261eef9540ae8c8
+
+PODFILE CHECKSUM: 2f53b69ba28f3e4f5c14858b22128ed565504a3e
+
+COCOAPODS: 1.11.3

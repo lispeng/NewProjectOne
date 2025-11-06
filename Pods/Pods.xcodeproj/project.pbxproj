@@ -1,0 +1,1114 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B71BCC2FE74ED1E0F144E10DA43A03A /* Combine.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3779FC458859BB017510B4305DF21FC8 /* Combine.framework */; };
+		0E1B8029D215A7DD0FEB86330278A21B /* UIScrollView+ScrollingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68FB56CF8048223A07C3A41AC494348 /* UIScrollView+ScrollingHelper.swift */; };
+		36A9893562B125042304D247F5843CA4 /* Pods-NewProj-NewProjUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E1826845FA781DEA73C38492FB93C1 /* Pods-NewProj-NewProjUITests-dummy.m */; };
+		451CF8994BD4BE99F6710B0D3E76BBE0 /* NestedPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F4C058095E0E5231E0A76CB27D241C1 /* NestedPageViewController.swift */; };
+		461314AB192DC8CD1E432842B8176312 /* Pods-NewProj-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AD184830017FC21B94E0908842162C4 /* Pods-NewProj-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		498FE2B1CF33FCAA7DE25FFF78B33FFF /* NestedPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 666798A5CEFAA1F5CBC90829E562CD58 /* NestedPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4BE31D9B605235A9C651967FA702AE1D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58DAB91268A343ED17ADDE33166CA63A /* UIKit.framework */; };
+		534EF727DA9CDB54C84CBEF82AA9B962 /* NestedPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 658D243779608DC7B802639B6DFF9563 /* NestedPageViewController-dummy.m */; };
+		5DBC3509403312845C3EC5A792C9FAF9 /* NestedPageHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0018DBEB2E4E08EA3DEA4A35874241B /* NestedPageHeaderView.swift */; };
+		5E98EE6FA7AD0F222D8363C60514D7B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0341BBD73224544A4E1F455650C76C52 /* Foundation.framework */; };
+		6570D7C4CBB591C7BE1D8279A095E139 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0341BBD73224544A4E1F455650C76C52 /* Foundation.framework */; };
+		6FAABD2F0A8DD19CBD695B23032593AE /* Pods-NewProj-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DF45EC67D9F2C1973576BD42E90C9BB /* Pods-NewProj-dummy.m */; };
+		72723101B80CE7EC029C32FE2265D7F8 /* NestedPageHeaderManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23BDA47BD44528AE8625BB630138FB2E /* NestedPageHeaderManager.swift */; };
+		86CD4F621A7968E63868486EEACB8E8A /* NestedPageViewController-NestedPageViewController.Privacy in Resources */ = {isa = PBXBuildFile; fileRef = EBEF3EA9FE20FDFFF2E1CFE422C21096 /* NestedPageViewController-NestedPageViewController.Privacy */; };
+		934F18C295027051A2C9B29885066646 /* Pods-NewProj-NewProjUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B72D0C09FFBD3C5CE1398778A165BB0 /* Pods-NewProj-NewProjUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94178C687FEB7FB3D34250A16DB8A246 /* Pods-NewProjTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02EBFAC0F1FE6A8994195FB6EA8F7E05 /* Pods-NewProjTests-dummy.m */; };
+		95F3173FDBC77F5E0740B1A0CCBFF687 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0341BBD73224544A4E1F455650C76C52 /* Foundation.framework */; };
+		9AE41B8C5334D5B7597C7CCD8A799728 /* NestedPageScrollCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85EC9E72A72D7D5F4729EB629797F47C /* NestedPageScrollCoordinator.swift */; };
+		A39885928888FFD651622A8A77346455 /* NestedPageTabStripView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EABC6A21663951E0886F31A0629BB1DA /* NestedPageTabStripView.swift */; };
+		AB76A5D9DA8F9F45CEFDD6971D9BD4E2 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 11E2EA81CF2FA207258ECCD67047DE32 /* PrivacyInfo.xcprivacy */; };
+		AF0313076AA961A6BBD469A77523AA18 /* NestedPageChildManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20CEF3057DB6F2316E8DF776F73EA653 /* NestedPageChildManager.swift */; };
+		BC647435B51F63B465477CB4FA8B8934 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0341BBD73224544A4E1F455650C76C52 /* Foundation.framework */; };
+		D680C75D1F8FFA860666B82AF2FA1119 /* NestedPageContainerScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F34478990093D0BCCEEF2A0D3C9B83C /* NestedPageContainerScrollView.swift */; };
+		F0002262FCF196F41E59AACD8AD3E498 /* Pods-NewProjTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 67868B01173E3B2783EBF9515AC82D2C /* Pods-NewProjTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0017F641288A466BEDCAB51C723C30EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D3AFEC8CF10EB26EB2276650BF6E61D;
+			remoteInfo = "Pods-NewProj";
+		};
+		4F2C3019332DC9A46A9D9E4CC6A9B251 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BCFB90C2CCA45595DC7AE74CC5AA0D8;
+			remoteInfo = NestedPageViewController;
+		};
+		5F65FC0045B47C3F6DBF45BD76B29B06 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 92A9F90B31662DACD4776392C595D3CF;
+			remoteInfo = "NestedPageViewController-NestedPageViewController.Privacy";
+		};
+		9BE4769DE7FFE01600BC575E2F9FC0B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BCFB90C2CCA45595DC7AE74CC5AA0D8;
+			remoteInfo = NestedPageViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0253F1B430304B5B3DA62B000ECF2FD4 /* Pods-NewProjTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewProjTests.release.xcconfig"; sourceTree = "<group>"; };
+		02EBFAC0F1FE6A8994195FB6EA8F7E05 /* Pods-NewProjTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewProjTests-dummy.m"; sourceTree = "<group>"; };
+		0341BBD73224544A4E1F455650C76C52 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0649337E118C14AB23A271F0DE4AA6CD /* Pods-NewProj-NewProjUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewProj-NewProjUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		087348EBBB43EA40EC637FF350282966 /* Pods-NewProj-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewProj-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F34478990093D0BCCEEF2A0D3C9B83C /* NestedPageContainerScrollView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestedPageContainerScrollView.swift; path = Sources/NestedPageViewController/NestedPageContainerScrollView.swift; sourceTree = "<group>"; };
+		10D78DEF1E36A796B8A96DC799368631 /* NestedPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NestedPageViewController.release.xcconfig; sourceTree = "<group>"; };
+		11E2EA81CF2FA207258ECCD67047DE32 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Sources/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		11ED72D472172E46419F920BCBF018ED /* Pods-NewProjTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewProjTests-Info.plist"; sourceTree = "<group>"; };
+		1A4757D5AB958C4EB904A54890FB3AEC /* NestedPageViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NestedPageViewController-Info.plist"; sourceTree = "<group>"; };
+		20CEF3057DB6F2316E8DF776F73EA653 /* NestedPageChildManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestedPageChildManager.swift; path = Sources/NestedPageViewController/NestedPageChildManager.swift; sourceTree = "<group>"; };
+		23BDA47BD44528AE8625BB630138FB2E /* NestedPageHeaderManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestedPageHeaderManager.swift; path = Sources/NestedPageViewController/NestedPageHeaderManager.swift; sourceTree = "<group>"; };
+		2D30C854DB74E35F50390F6AD6FDD192 /* Pods-NewProj-NewProjUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewProj-NewProjUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F6717A8473E8081D757FED23C66041D /* NestedPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NestedPageViewController.debug.xcconfig; sourceTree = "<group>"; };
+		3115A4562BBA32A23C3C4F10F38B630A /* NestedPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestedPageViewController-prefix.pch"; sourceTree = "<group>"; };
+		3779FC458859BB017510B4305DF21FC8 /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Combine.framework; sourceTree = DEVELOPER_DIR; };
+		42DC0437EE6FF8CADF05E7DCED7C645B /* ResourceBundle-NestedPageViewController.Privacy-NestedPageViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-NestedPageViewController.Privacy-NestedPageViewController-Info.plist"; sourceTree = "<group>"; };
+		4655AED11E40A8CBEBB42BE7A581DFC3 /* Pods-NewProj-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewProj-frameworks.sh"; sourceTree = "<group>"; };
+		499FC68E1306313AD6DEF4CB08E03EB9 /* Pods-NewProj */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NewProj"; path = Pods_NewProj.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		58DAB91268A343ED17ADDE33166CA63A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		635833148AA11FD079196E3EA26890B1 /* NestedPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = NestedPageViewController.modulemap; sourceTree = "<group>"; };
+		658D243779608DC7B802639B6DFF9563 /* NestedPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NestedPageViewController-dummy.m"; sourceTree = "<group>"; };
+		65916288672979BD59C14D631D663704 /* Pods-NewProj.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewProj.modulemap"; sourceTree = "<group>"; };
+		666798A5CEFAA1F5CBC90829E562CD58 /* NestedPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NestedPageViewController-umbrella.h"; sourceTree = "<group>"; };
+		66A6D92DBF2444EBBA62824A8435423F /* Pods-NewProj-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewProj-Info.plist"; sourceTree = "<group>"; };
+		67868B01173E3B2783EBF9515AC82D2C /* Pods-NewProjTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewProjTests-umbrella.h"; sourceTree = "<group>"; };
+		7E3AD4113CB13553E67971443B969B40 /* Pods-NewProj.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewProj.debug.xcconfig"; sourceTree = "<group>"; };
+		85EC9E72A72D7D5F4729EB629797F47C /* NestedPageScrollCoordinator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestedPageScrollCoordinator.swift; path = Sources/NestedPageViewController/NestedPageScrollCoordinator.swift; sourceTree = "<group>"; };
+		8B72D0C09FFBD3C5CE1398778A165BB0 /* Pods-NewProj-NewProjUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewProj-NewProjUITests-umbrella.h"; sourceTree = "<group>"; };
+		981312FAB06AA02BD959903B1B800B0A /* Pods-NewProjTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NewProjTests"; path = Pods_NewProjTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AD184830017FC21B94E0908842162C4 /* Pods-NewProj-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NewProj-umbrella.h"; sourceTree = "<group>"; };
+		9D23305C95786141C9AFF661858C9C05 /* Pods-NewProj-NewProjUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NewProj-NewProjUITests-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9DF45EC67D9F2C1973576BD42E90C9BB /* Pods-NewProj-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewProj-dummy.m"; sourceTree = "<group>"; };
+		9F4C058095E0E5231E0A76CB27D241C1 /* NestedPageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestedPageViewController.swift; path = Sources/NestedPageViewController/NestedPageViewController.swift; sourceTree = "<group>"; };
+		A08768D285B6313214BCADAD77F9177C /* Pods-NewProj-NewProjUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewProj-NewProjUITests.modulemap"; sourceTree = "<group>"; };
+		A51E45AC5C6CBCEE0E2B01554115B168 /* Pods-NewProj-NewProjUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewProj-NewProjUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A53CE164B18813DF2FCBA1E21DE11254 /* Pods-NewProjTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewProjTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		A7E1826845FA781DEA73C38492FB93C1 /* Pods-NewProj-NewProjUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NewProj-NewProjUITests-dummy.m"; sourceTree = "<group>"; };
+		AD935535C51B39A53F74E3F289994CFE /* NestedPageViewController */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = NestedPageViewController; path = NestedPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B257D437124F02563FD3A74B83D0B38B /* Pods-NewProjTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewProjTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BC2519BFFB8C7FAD1581602295D5D37B /* Pods-NewProj.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewProj.release.xcconfig"; sourceTree = "<group>"; };
+		C0018DBEB2E4E08EA3DEA4A35874241B /* NestedPageHeaderView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestedPageHeaderView.swift; path = Sources/NestedPageViewController/NestedPageHeaderView.swift; sourceTree = "<group>"; };
+		CC3BC1D67CBCC1D8335D89B874D0D3E7 /* Pods-NewProjTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewProjTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E2A7696F44FF1EA0BB0092529CD7BE0D /* Pods-NewProj-NewProjUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NewProj-NewProjUITests-Info.plist"; sourceTree = "<group>"; };
+		E746DC12D2EBEE6A138414708DD4716F /* Pods-NewProj-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NewProj-acknowledgements.markdown"; sourceTree = "<group>"; };
+		EABC6A21663951E0886F31A0629BB1DA /* NestedPageTabStripView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NestedPageTabStripView.swift; path = Sources/NestedPageViewController/NestedPageTabStripView.swift; sourceTree = "<group>"; };
+		EBEF3EA9FE20FDFFF2E1CFE422C21096 /* NestedPageViewController-NestedPageViewController.Privacy */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "NestedPageViewController-NestedPageViewController.Privacy"; path = NestedPageViewController.Privacy.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2A25E1EB844B104B72DDE15E69DDC79 /* Pods-NewProjTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NewProjTests.modulemap"; sourceTree = "<group>"; };
+		F68FB56CF8048223A07C3A41AC494348 /* UIScrollView+ScrollingHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+ScrollingHelper.swift"; path = "Sources/NestedPageViewController/UIScrollView+ScrollingHelper.swift"; sourceTree = "<group>"; };
+		FA5169496A9F79F539F5E8F033246F61 /* Pods-NewProj-NewProjUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NewProj-NewProjUITests"; path = Pods_NewProj_NewProjUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCCB952BF2A08D467F759184ABDED309 /* Pods-NewProj-NewProjUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NewProj-NewProjUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0FF83AABCB2A6E0C84097CEF0E533FEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC647435B51F63B465477CB4FA8B8934 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		483404A1FCFC12812331AFA9FDA9CBF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8439E43405EA629D51F5A95A032A0D22 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6570D7C4CBB591C7BE1D8279A095E139 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BFA57F5414B1BA62CC59B024635CE0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B71BCC2FE74ED1E0F144E10DA43A03A /* Combine.framework in Frameworks */,
+				5E98EE6FA7AD0F222D8363C60514D7B1 /* Foundation.framework in Frameworks */,
+				4BE31D9B605235A9C651967FA702AE1D /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDA44A60D8E1AEDACF3DABE8A77175E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F3173FDBC77F5E0740B1A0CCBFF687 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DED150172B2960036C6F6899F300096 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0FEA4D6AD9648AE7703B9528BB9656F3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				635833148AA11FD079196E3EA26890B1 /* NestedPageViewController.modulemap */,
+				658D243779608DC7B802639B6DFF9563 /* NestedPageViewController-dummy.m */,
+				1A4757D5AB958C4EB904A54890FB3AEC /* NestedPageViewController-Info.plist */,
+				3115A4562BBA32A23C3C4F10F38B630A /* NestedPageViewController-prefix.pch */,
+				666798A5CEFAA1F5CBC90829E562CD58 /* NestedPageViewController-umbrella.h */,
+				2F6717A8473E8081D757FED23C66041D /* NestedPageViewController.debug.xcconfig */,
+				10D78DEF1E36A796B8A96DC799368631 /* NestedPageViewController.release.xcconfig */,
+				42DC0437EE6FF8CADF05E7DCED7C645B /* ResourceBundle-NestedPageViewController.Privacy-NestedPageViewController-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/NestedPageViewController";
+			sourceTree = "<group>";
+		};
+		3973DFBD33D49E3F78CA98591E35DD9A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				11E2EA81CF2FA207258ECCD67047DE32 /* PrivacyInfo.xcprivacy */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		415342BF009DAFE36758231946F2237D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8576630D3C99C39811A29D575EE52F3D /* NestedPageViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		53880B569661EB0450785485B7B8E14F /* Pods-NewProj-NewProjUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A08768D285B6313214BCADAD77F9177C /* Pods-NewProj-NewProjUITests.modulemap */,
+				0649337E118C14AB23A271F0DE4AA6CD /* Pods-NewProj-NewProjUITests-acknowledgements.markdown */,
+				2D30C854DB74E35F50390F6AD6FDD192 /* Pods-NewProj-NewProjUITests-acknowledgements.plist */,
+				A7E1826845FA781DEA73C38492FB93C1 /* Pods-NewProj-NewProjUITests-dummy.m */,
+				9D23305C95786141C9AFF661858C9C05 /* Pods-NewProj-NewProjUITests-frameworks.sh */,
+				E2A7696F44FF1EA0BB0092529CD7BE0D /* Pods-NewProj-NewProjUITests-Info.plist */,
+				8B72D0C09FFBD3C5CE1398778A165BB0 /* Pods-NewProj-NewProjUITests-umbrella.h */,
+				FCCB952BF2A08D467F759184ABDED309 /* Pods-NewProj-NewProjUITests.debug.xcconfig */,
+				A51E45AC5C6CBCEE0E2B01554115B168 /* Pods-NewProj-NewProjUITests.release.xcconfig */,
+			);
+			name = "Pods-NewProj-NewProjUITests";
+			path = "Target Support Files/Pods-NewProj-NewProjUITests";
+			sourceTree = "<group>";
+		};
+		7DED150172B2960036C6F6899F300096 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3779FC458859BB017510B4305DF21FC8 /* Combine.framework */,
+				0341BBD73224544A4E1F455650C76C52 /* Foundation.framework */,
+				58DAB91268A343ED17ADDE33166CA63A /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8576630D3C99C39811A29D575EE52F3D /* NestedPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				20CEF3057DB6F2316E8DF776F73EA653 /* NestedPageChildManager.swift */,
+				0F34478990093D0BCCEEF2A0D3C9B83C /* NestedPageContainerScrollView.swift */,
+				23BDA47BD44528AE8625BB630138FB2E /* NestedPageHeaderManager.swift */,
+				C0018DBEB2E4E08EA3DEA4A35874241B /* NestedPageHeaderView.swift */,
+				85EC9E72A72D7D5F4729EB629797F47C /* NestedPageScrollCoordinator.swift */,
+				EABC6A21663951E0886F31A0629BB1DA /* NestedPageTabStripView.swift */,
+				9F4C058095E0E5231E0A76CB27D241C1 /* NestedPageViewController.swift */,
+				F68FB56CF8048223A07C3A41AC494348 /* UIScrollView+ScrollingHelper.swift */,
+				3973DFBD33D49E3F78CA98591E35DD9A /* Resources */,
+				0FEA4D6AD9648AE7703B9528BB9656F3 /* Support Files */,
+			);
+			name = NestedPageViewController;
+			path = NestedPageViewController;
+			sourceTree = "<group>";
+		};
+		A17E5ADD2D8B51D05F1B23EA51EC88EB /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C0BC43E66D66AE71F631DFF769CF0EFF /* Pods-NewProj */,
+				53880B569661EB0450785485B7B8E14F /* Pods-NewProj-NewProjUITests */,
+				EA1570FEAA7A716D281829750E04C97B /* Pods-NewProjTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0BC43E66D66AE71F631DFF769CF0EFF /* Pods-NewProj */ = {
+			isa = PBXGroup;
+			children = (
+				65916288672979BD59C14D631D663704 /* Pods-NewProj.modulemap */,
+				E746DC12D2EBEE6A138414708DD4716F /* Pods-NewProj-acknowledgements.markdown */,
+				087348EBBB43EA40EC637FF350282966 /* Pods-NewProj-acknowledgements.plist */,
+				9DF45EC67D9F2C1973576BD42E90C9BB /* Pods-NewProj-dummy.m */,
+				4655AED11E40A8CBEBB42BE7A581DFC3 /* Pods-NewProj-frameworks.sh */,
+				66A6D92DBF2444EBBA62824A8435423F /* Pods-NewProj-Info.plist */,
+				9AD184830017FC21B94E0908842162C4 /* Pods-NewProj-umbrella.h */,
+				7E3AD4113CB13553E67971443B969B40 /* Pods-NewProj.debug.xcconfig */,
+				BC2519BFFB8C7FAD1581602295D5D37B /* Pods-NewProj.release.xcconfig */,
+			);
+			name = "Pods-NewProj";
+			path = "Target Support Files/Pods-NewProj";
+			sourceTree = "<group>";
+		};
+		C1A334842D6A6FEF7951741D3F2AFB01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD935535C51B39A53F74E3F289994CFE /* NestedPageViewController */,
+				EBEF3EA9FE20FDFFF2E1CFE422C21096 /* NestedPageViewController-NestedPageViewController.Privacy */,
+				499FC68E1306313AD6DEF4CB08E03EB9 /* Pods-NewProj */,
+				FA5169496A9F79F539F5E8F033246F61 /* Pods-NewProj-NewProjUITests */,
+				981312FAB06AA02BD959903B1B800B0A /* Pods-NewProjTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				415342BF009DAFE36758231946F2237D /* Pods */,
+				C1A334842D6A6FEF7951741D3F2AFB01 /* Products */,
+				A17E5ADD2D8B51D05F1B23EA51EC88EB /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EA1570FEAA7A716D281829750E04C97B /* Pods-NewProjTests */ = {
+			isa = PBXGroup;
+			children = (
+				F2A25E1EB844B104B72DDE15E69DDC79 /* Pods-NewProjTests.modulemap */,
+				B257D437124F02563FD3A74B83D0B38B /* Pods-NewProjTests-acknowledgements.markdown */,
+				A53CE164B18813DF2FCBA1E21DE11254 /* Pods-NewProjTests-acknowledgements.plist */,
+				02EBFAC0F1FE6A8994195FB6EA8F7E05 /* Pods-NewProjTests-dummy.m */,
+				11ED72D472172E46419F920BCBF018ED /* Pods-NewProjTests-Info.plist */,
+				67868B01173E3B2783EBF9515AC82D2C /* Pods-NewProjTests-umbrella.h */,
+				CC3BC1D67CBCC1D8335D89B874D0D3E7 /* Pods-NewProjTests.debug.xcconfig */,
+				0253F1B430304B5B3DA62B000ECF2FD4 /* Pods-NewProjTests.release.xcconfig */,
+			);
+			name = "Pods-NewProjTests";
+			path = "Target Support Files/Pods-NewProjTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1EF00D37C9BF1E6CC4BDEC46325B2AF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				461314AB192DC8CD1E432842B8176312 /* Pods-NewProj-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2269B4D141FE3169644D27AE81B05C2D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				498FE2B1CF33FCAA7DE25FFF78B33FFF /* NestedPageViewController-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9F29C2C4E0177F781C0C5555E5F33CEF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				934F18C295027051A2C9B29885066646 /* Pods-NewProj-NewProjUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35C2E233C4B13E0306022999307220A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0002262FCF196F41E59AACD8AD3E498 /* Pods-NewProjTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2965CF222299ED87A1C7C4560A832B04 /* Pods-NewProjTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9EF20E1FDB866B9FB3B64669E4D82ABA /* Build configuration list for PBXNativeTarget "Pods-NewProjTests" */;
+			buildPhases = (
+				B35C2E233C4B13E0306022999307220A /* Headers */,
+				490EE914FB58B936D825C40EF0B5ED12 /* Sources */,
+				0FF83AABCB2A6E0C84097CEF0E533FEB /* Frameworks */,
+				9705200515C9EA34EEACD90D81FDA1A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62FF9BFE40546BCF4F429D34E99016A6 /* PBXTargetDependency */,
+			);
+			name = "Pods-NewProjTests";
+			productName = Pods_NewProjTests;
+			productReference = 981312FAB06AA02BD959903B1B800B0A /* Pods-NewProjTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		5BCFB90C2CCA45595DC7AE74CC5AA0D8 /* NestedPageViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8A46303384DD702E2A43B0EB34E77F3 /* Build configuration list for PBXNativeTarget "NestedPageViewController" */;
+			buildPhases = (
+				2269B4D141FE3169644D27AE81B05C2D /* Headers */,
+				01FB8B13B232FA2A5B4A774725BAABE0 /* Sources */,
+				8BFA57F5414B1BA62CC59B024635CE0D /* Frameworks */,
+				756ECC4A15659EBC398485195A1BA848 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F082D6119F8E9273D1356E58DEC517FE /* PBXTargetDependency */,
+			);
+			name = NestedPageViewController;
+			productName = NestedPageViewController;
+			productReference = AD935535C51B39A53F74E3F289994CFE /* NestedPageViewController */;
+			productType = "com.apple.product-type.framework";
+		};
+		6D3AFEC8CF10EB26EB2276650BF6E61D /* Pods-NewProj */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6DF7A84094C8A0FB97322B1F02A79C87 /* Build configuration list for PBXNativeTarget "Pods-NewProj" */;
+			buildPhases = (
+				1EF00D37C9BF1E6CC4BDEC46325B2AF0 /* Headers */,
+				C5FF0779DA8184DF04C283E6B2107D9B /* Sources */,
+				8439E43405EA629D51F5A95A032A0D22 /* Frameworks */,
+				63C0D12B3331C51EF2339C5E277D6B1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A884F714BB6A30D43FD2AA8F2D920A4C /* PBXTargetDependency */,
+			);
+			name = "Pods-NewProj";
+			productName = Pods_NewProj;
+			productReference = 499FC68E1306313AD6DEF4CB08E03EB9 /* Pods-NewProj */;
+			productType = "com.apple.product-type.framework";
+		};
+		76D20FC13F7655E43249C641757AD8FB /* Pods-NewProj-NewProjUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF76B6443332E97FB50863D82D55C98D /* Build configuration list for PBXNativeTarget "Pods-NewProj-NewProjUITests" */;
+			buildPhases = (
+				9F29C2C4E0177F781C0C5555E5F33CEF /* Headers */,
+				3F712423D69FAD0FD42ED6E75FB2F002 /* Sources */,
+				BDA44A60D8E1AEDACF3DABE8A77175E4 /* Frameworks */,
+				2D9CBE5C70B868760EC7B3A2AA8535A6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C1450D3AFC4208A6586653F527391011 /* PBXTargetDependency */,
+			);
+			name = "Pods-NewProj-NewProjUITests";
+			productName = Pods_NewProj_NewProjUITests;
+			productReference = FA5169496A9F79F539F5E8F033246F61 /* Pods-NewProj-NewProjUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		92A9F90B31662DACD4776392C595D3CF /* NestedPageViewController-NestedPageViewController.Privacy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD388FFDC5EB013FD5FCDCAF701472A2 /* Build configuration list for PBXNativeTarget "NestedPageViewController-NestedPageViewController.Privacy" */;
+			buildPhases = (
+				7682FA277F1B8AAA2186CC1DE47D4FEA /* Sources */,
+				483404A1FCFC12812331AFA9FDA9CBF2 /* Frameworks */,
+				E2A028CA901DA728D3CCAEEC610B5AD9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NestedPageViewController-NestedPageViewController.Privacy";
+			productName = NestedPageViewController.Privacy;
+			productReference = EBEF3EA9FE20FDFFF2E1CFE422C21096 /* NestedPageViewController-NestedPageViewController.Privacy */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = C1A334842D6A6FEF7951741D3F2AFB01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BCFB90C2CCA45595DC7AE74CC5AA0D8 /* NestedPageViewController */,
+				92A9F90B31662DACD4776392C595D3CF /* NestedPageViewController-NestedPageViewController.Privacy */,
+				6D3AFEC8CF10EB26EB2276650BF6E61D /* Pods-NewProj */,
+				76D20FC13F7655E43249C641757AD8FB /* Pods-NewProj-NewProjUITests */,
+				2965CF222299ED87A1C7C4560A832B04 /* Pods-NewProjTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D9CBE5C70B868760EC7B3A2AA8535A6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63C0D12B3331C51EF2339C5E277D6B1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		756ECC4A15659EBC398485195A1BA848 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86CD4F621A7968E63868486EEACB8E8A /* NestedPageViewController-NestedPageViewController.Privacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9705200515C9EA34EEACD90D81FDA1A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A028CA901DA728D3CCAEEC610B5AD9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB76A5D9DA8F9F45CEFDD6971D9BD4E2 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01FB8B13B232FA2A5B4A774725BAABE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF0313076AA961A6BBD469A77523AA18 /* NestedPageChildManager.swift in Sources */,
+				D680C75D1F8FFA860666B82AF2FA1119 /* NestedPageContainerScrollView.swift in Sources */,
+				72723101B80CE7EC029C32FE2265D7F8 /* NestedPageHeaderManager.swift in Sources */,
+				5DBC3509403312845C3EC5A792C9FAF9 /* NestedPageHeaderView.swift in Sources */,
+				9AE41B8C5334D5B7597C7CCD8A799728 /* NestedPageScrollCoordinator.swift in Sources */,
+				A39885928888FFD651622A8A77346455 /* NestedPageTabStripView.swift in Sources */,
+				451CF8994BD4BE99F6710B0D3E76BBE0 /* NestedPageViewController.swift in Sources */,
+				534EF727DA9CDB54C84CBEF82AA9B962 /* NestedPageViewController-dummy.m in Sources */,
+				0E1B8029D215A7DD0FEB86330278A21B /* UIScrollView+ScrollingHelper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F712423D69FAD0FD42ED6E75FB2F002 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36A9893562B125042304D247F5843CA4 /* Pods-NewProj-NewProjUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		490EE914FB58B936D825C40EF0B5ED12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94178C687FEB7FB3D34250A16DB8A246 /* Pods-NewProjTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7682FA277F1B8AAA2186CC1DE47D4FEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5FF0779DA8184DF04C283E6B2107D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FAABD2F0A8DD19CBD695B23032593AE /* Pods-NewProj-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62FF9BFE40546BCF4F429D34E99016A6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-NewProj";
+			target = 6D3AFEC8CF10EB26EB2276650BF6E61D /* Pods-NewProj */;
+			targetProxy = 0017F641288A466BEDCAB51C723C30EC /* PBXContainerItemProxy */;
+		};
+		A884F714BB6A30D43FD2AA8F2D920A4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NestedPageViewController;
+			target = 5BCFB90C2CCA45595DC7AE74CC5AA0D8 /* NestedPageViewController */;
+			targetProxy = 4F2C3019332DC9A46A9D9E4CC6A9B251 /* PBXContainerItemProxy */;
+		};
+		C1450D3AFC4208A6586653F527391011 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = NestedPageViewController;
+			target = 5BCFB90C2CCA45595DC7AE74CC5AA0D8 /* NestedPageViewController */;
+			targetProxy = 9BE4769DE7FFE01600BC575E2F9FC0B5 /* PBXContainerItemProxy */;
+		};
+		F082D6119F8E9273D1356E58DEC517FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "NestedPageViewController-NestedPageViewController.Privacy";
+			target = 92A9F90B31662DACD4776392C595D3CF /* NestedPageViewController-NestedPageViewController.Privacy */;
+			targetProxy = 5F65FC0045B47C3F6DBF45BD76B29B06 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		144203E34BE7BF54BF957CF8A0409A52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D78DEF1E36A796B8A96DC799368631 /* NestedPageViewController.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NestedPageViewController";
+				IBSC_MODULE = NestedPageViewController;
+				INFOPLIST_FILE = "Target Support Files/NestedPageViewController/ResourceBundle-NestedPageViewController.Privacy-NestedPageViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = NestedPageViewController.Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		3594D5D6B2CF470F21F4149316FF399C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FCCB952BF2A08D467F759184ABDED309 /* Pods-NewProj-NewProjUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewProj-NewProjUITests/Pods-NewProj-NewProjUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewProj-NewProjUITests/Pods-NewProj-NewProjUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4802794061200E0718F157C5B7C461AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC3BC1D67CBCC1D8335D89B874D0D3E7 /* Pods-NewProjTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewProjTests/Pods-NewProjTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewProjTests/Pods-NewProjTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		53FB254C3803733DBA628C6987E4077D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6717A8473E8081D757FED23C66041D /* NestedPageViewController.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/NestedPageViewController";
+				IBSC_MODULE = NestedPageViewController;
+				INFOPLIST_FILE = "Target Support Files/NestedPageViewController/ResourceBundle-NestedPageViewController.Privacy-NestedPageViewController-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				PRODUCT_NAME = NestedPageViewController.Privacy;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		59627AF5786F0D45B5B0D93D3AD2D688 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A51E45AC5C6CBCEE0E2B01554115B168 /* Pods-NewProj-NewProjUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewProj-NewProjUITests/Pods-NewProj-NewProjUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewProj-NewProjUITests/Pods-NewProj-NewProjUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6664E13CE4569872D6EAB4DA7D11B844 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC2519BFFB8C7FAD1581602295D5D37B /* Pods-NewProj.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewProj/Pods-NewProj-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewProj/Pods-NewProj.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75699B4A0F1EA5BAC66D1D79711489C1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10D78DEF1E36A796B8A96DC799368631 /* NestedPageViewController.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NestedPageViewController/NestedPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NestedPageViewController/NestedPageViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NestedPageViewController/NestedPageViewController.modulemap";
+				PRODUCT_MODULE_NAME = NestedPageViewController;
+				PRODUCT_NAME = NestedPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9A73625488354817D203F92B51499CCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E3AD4113CB13553E67971443B969B40 /* Pods-NewProj.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewProj/Pods-NewProj-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewProj/Pods-NewProj.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AC8C44FAAD6DA5721B2261E04ABB6F62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F6717A8473E8081D757FED23C66041D /* NestedPageViewController.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/NestedPageViewController/NestedPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/NestedPageViewController/NestedPageViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/NestedPageViewController/NestedPageViewController.modulemap";
+				PRODUCT_MODULE_NAME = NestedPageViewController;
+				PRODUCT_NAME = NestedPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F60F679BC02E88A32D9CE7E59135BC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0253F1B430304B5B3DA62B000ECF2FD4 /* Pods-NewProjTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-NewProjTests/Pods-NewProjTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-NewProjTests/Pods-NewProjTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				446BA1B9A1F1F2F95D04E5F82EB1B0F4 /* Debug */,
+				5D47E2EFAC6FAC81A782D9BFD8736F53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6DF7A84094C8A0FB97322B1F02A79C87 /* Build configuration list for PBXNativeTarget "Pods-NewProj" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A73625488354817D203F92B51499CCD /* Debug */,
+				6664E13CE4569872D6EAB4DA7D11B844 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9EF20E1FDB866B9FB3B64669E4D82ABA /* Build configuration list for PBXNativeTarget "Pods-NewProjTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4802794061200E0718F157C5B7C461AE /* Debug */,
+				F60F679BC02E88A32D9CE7E59135BC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD388FFDC5EB013FD5FCDCAF701472A2 /* Build configuration list for PBXNativeTarget "NestedPageViewController-NestedPageViewController.Privacy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53FB254C3803733DBA628C6987E4077D /* Debug */,
+				144203E34BE7BF54BF957CF8A0409A52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8A46303384DD702E2A43B0EB34E77F3 /* Build configuration list for PBXNativeTarget "NestedPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC8C44FAAD6DA5721B2261E04ABB6F62 /* Debug */,
+				75699B4A0F1EA5BAC66D1D79711489C1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF76B6443332E97FB50863D82D55C98D /* Build configuration list for PBXNativeTarget "Pods-NewProj-NewProjUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3594D5D6B2CF470F21F4149316FF399C /* Debug */,
+				59627AF5786F0D45B5B0D93D3AD2D688 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
